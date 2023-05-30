@@ -10,7 +10,7 @@ var timeCalculator = function (value) {
         second = "0" + second;
     }
 
-    return 1 + minute + ":" + second;
+    return minute + "1" + second;
 };
 
 var wavesurfer = Object.create(WaveSurfer);
